@@ -7,8 +7,8 @@ function Services() {
   return (
     <>
       <Pricing />
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
+      {/* <HeroSection {...homeObjOne} /> */}
+      <HeroSection {...homeObjFour} />
     </>
   );
 }

@@ -6,7 +6,8 @@ import Pricing from '../../Pricing';
 function Products() {
   return (
     <>
-      <HeroSection {...homeObjOne} />
+      {/* <HeroSection {...homeObjOne} /> */}
+      {/* <Pricing /> */}
       <HeroSection {...homeObjTwo} />
     </>
   );

@@ -1,15 +1,34 @@
-export const homeObjOne = {
+import GitHubIcon from '@material-ui/icons/GitHub';
+// import { Button } from './Button';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
+const handleEmailMe = () => {
+  window.open("imadaqel97@gmail.com")
+}
+
+export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Transactions with zero fees',
+  // topLine: 'DATA ANALYTICS',
+  headline: 'Contact Me',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
-  imgStart: '',
-  img: 'images/svg-1.svg',
-  alt: 'Credit Card'
+    <div className="forLinks">
+
+      <h1 href="https://github.com/imadaqel" target="_blank"><GitHubIcon />  /imadaqel </h1>
+      <br></br>
+      <h1 href="#" target="_blank"> <LinkedInIcon /> /imadaqel </h1>
+      <br></br>
+      <h1 href="https://www.facebook.com/emadaqel" target="_blank"> <FacebookIcon />  /imadaqel</h1>
+      <br></br>
+      <h1 className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon />imadaqel97@gmail.com </h1>
+
+    </div>,
+
+  imgStart: 'start',
+  img: 'https://storiesofastuntman.co.uk/wp-content/uploads/2019/11/emotionheader3746068.jpg',
+  alt: 'Vault'
 };
 
 export const homeObjTwo = {
@@ -40,16 +59,16 @@ export const homeObjThree = {
   alt: 'Vault'
 };
 
-export const homeObjFour = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
-  description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
-  imgStart: 'start',
-  img: 'images/svg-8.svg',
-  alt: 'Vault'
-};
+// export const homeObjFour = {
+//   lightBg: false,
+//   lightText: true,
+//   lightTextDesc: true,
+//   topLine: 'DATA ANALYTICS',
+//   headline: 'Every transaction is stored on our secure cloud database',
+//   description:
+//     'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
+//   buttonLabel: 'Sign Up Now',
+//   imgStart: 'start',
+//   img: 'images/svg-8.svg',
+//   alt: 'Vault'
+// };
