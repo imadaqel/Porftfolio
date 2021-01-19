@@ -36,8 +36,8 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              {/* <MdFingerprint className='navbar-icon' /> */}
+              Imad Aqel
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -50,36 +50,36 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  {/* My Projects */}
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/products'
+                  to='/'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  {/* Products */}
                 </Link>
               </li>
               <li className='nav-btn'>
                 {button ? (
                   <Link to='/sign-up' className='btn-link'>
-                    <Button buttonStyle='btn--outline'>SIGN UP</Button>
+                    {/* <Button buttonStyle='btn--outline'>SIGN UP</Button> */}
                   </Link>
                 ) : (
                     <Link to='/sign-up' className='btn-link'>
-                      <Button
+                      {/* <Button
                         buttonStyle='btn--outline'
                         buttonSize='btn--mobile'
                         onClick={closeMobileMenu}
                       >
                         SIGN UP
-                    </Button>
+                    </Button> */}
                     </Link>
                   )}
               </li>
