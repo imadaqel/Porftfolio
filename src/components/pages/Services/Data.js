@@ -22,7 +22,8 @@ export const homeObjFour = {
       <br></br>
       <h1 href="https://www.facebook.com/emadaqel" target="_blank"> <FacebookIcon />  /imadaqel</h1>
       <br></br>
-      <h1 className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon />imadaqel97@gmail.com </h1>
+      {/* <h1 className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon />imadaqel97@gmail.com </h1> */}
+      <h1 font-wigth="35"> <img src="https://res.cloudinary.com/imad2514/image/upload/v1611140212/gmail_1_ddyrsx.svg" alt="github" width="40" height="40" className="sidebar__icon mr-3" />imadaqel97@</h1>
 
     </div>,
 
