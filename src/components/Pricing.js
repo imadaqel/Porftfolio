@@ -22,7 +22,8 @@ function Pricing() {
 
                 {/* <span class='works__title'>LafLefNi</span> */}
                 <a href="https://github.com/imadaqel/GreenField5" target="_blank" postion><GitHubIcon /> </a>
-                <a href="https://github.com/imadaqel/GreenField5" target="_blank" postion><OpenInBrowserIcon /> </a>
+                <a href="https://laflefne.herokuapp.com/" target="_blank" postion><OpenInBrowserIcon /> </a>
+                <a href='https://www.youtube.com/watch?v=7sA0WyEdNOY&feature=youtu.be' class="works__link"><span class="iconify" data-icon="bx:bxl-youtube" data-inline="false"></span></a>
 
               </div>
             </div>
@@ -32,8 +33,8 @@ function Pricing() {
               <div class="works__data">
 
                 {/* <span class='works__title'>LafLefNi</span> */}
-                <a href="https://github.com/imadaqel/GreenField5" target="_blank" postion><GitHubIcon /> </a>
-                <a href="https://github.com/imadaqel/GreenField5" target="_blank" postion><OpenInBrowserIcon /> </a>
+                <a href="https://github.com/imadaqel/legacy" target="_blank" postion><GitHubIcon /> </a>
+                <a href="https://fooddosezero.herokuapp.com/" target="_blank" postion><OpenInBrowserIcon /> </a>
 
               </div>
             </div>
@@ -42,8 +43,8 @@ function Pricing() {
               <div class="works__data">
 
                 {/* <span class='works__title'>LafLefNi</span> */}
-                <a href="https://github.com/imadaqel/GreenField5" target="_blank" postion><GitHubIcon /> </a>
-                <a href="https://github.com/imadaqel/GreenField5" target="_blank" postion><OpenInBrowserIcon /> </a>
+                <a href="https://github.com/imadaqel/Rawnaq---Final" target="_blank" postion><GitHubIcon /> </a>
+                <a href="https://github.com/imadaqel/Rawnaq---Final" target="_blank" postion><OpenInBrowserIcon /> </a>
 
               </div>
             </div>
